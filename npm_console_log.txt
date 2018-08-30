@@ -1,0 +1,209 @@
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\Velizar Valkov\Downloads\ICO\NCB>cd HivePoC
+
+C:\Users\Velizar Valkov\Downloads\ICO\NCB\HivePoC>npm install
+HivePoC@ C:\Users\Velizar Valkov\Downloads\ICO\NCB\HivePoC
++-- babel-runtime@6.26.0
+| +-- core-js@2.5.7
+| `-- regenerator-runtime@0.11.1
+`-- meteor-node-stubs@0.2.11
+  +-- asn1.js@4.9.0
+  +-- assert@1.4.1
+  +-- balanced-match@0.4.2
+  +-- Base64@0.2.1
+  +-- base64-js@1.2.0
+  +-- bn.js@4.11.6
+  +-- brace-expansion@1.1.7
+  +-- brorand@1.0.6
+  +-- browserify-aes@1.0.6
+  +-- browserify-cipher@1.0.0
+  +-- browserify-des@1.0.0
+  +-- browserify-rsa@4.0.1
+  +-- browserify-sign@4.0.0
+  +-- browserify-zlib@0.1.4
+  +-- buffer@4.9.1
+  +-- buffer-xor@1.0.3
+  +-- cipher-base@1.0.3
+  +-- concat-map@0.0.1
+  +-- console-browserify@1.1.0
+  +-- constants-browserify@1.0.0
+  +-- create-ecdh@4.0.0
+  +-- create-hash@1.1.2
+  +-- create-hmac@1.1.4
+  +-- crypto-browserify@3.11.0
+  +-- date-now@0.1.4
+  +-- des.js@1.0.0
+  +-- diffie-hellman@5.0.2
+  +-- domain-browser@1.1.7
+  +-- elliptic@6.3.2
+  +-- events@1.1.1
+  +-- evp_bytestokey@1.0.0
+  +-- fs.realpath@1.0.0
+  +-- glob@7.1.2
+  +-- hash.js@1.0.3
+  +-- http-browserify@1.7.0
+  +-- https-browserify@0.0.1
+  +-- ieee754@1.1.8
+  +-- indexof@0.0.1
+  +-- inflight@1.0.6
+  +-- inherits@2.0.1
+  +-- isarray@1.0.0
+  +-- miller-rabin@4.0.0
+  +-- minimalistic-assert@1.0.0
+  +-- minimatch@3.0.4
+  +-- once@1.4.0
+  +-- os-browserify@0.2.1
+  +-- pako@0.2.9
+  +-- parse-asn1@5.0.0
+  +-- path-browserify@0.0.0
+  +-- path-is-absolute@1.0.1
+  +-- pbkdf2@3.0.9
+  +-- process@0.11.9
+  +-- process-nextick-args@1.0.7
+  +-- public-encrypt@4.0.0
+  +-- punycode@1.4.1
+  +-- querystring@0.2.0
+  +-- querystring-es3@0.2.1
+  +-- randombytes@2.0.3
+  +-- readable-stream@2.2.10  (git+https://github.com/meteor/readable-stream.git#2e9112d7d31a2af6e0682db0e18679b1e5fd4694)
+  +-- rimraf@2.6.1  extraneous
+  +-- ripemd160@1.0.1
+  +-- safe-buffer@5.0.1
+  +-- sha.js@2.4.8
+  +-- stream-browserify@2.0.1
+  +-- string_decoder@1.0.1
+  +-- timers-browserify@1.4.2
+  +-- tty-browserify@0.0.0
+  +-- url@0.11.0
+  | `-- punycode@1.3.2
+  +-- util@0.10.3
+  +-- util-deprecate@1.0.2
+  +-- vm-browserify@0.0.4
+  `-- wrappy@1.0.2
+
+
+C:\Users\Velizar Valkov\Downloads\ICO\NCB\HivePoC>npm start
+
+> HivePoC@ start C:\Users\Velizar Valkov\Downloads\ICO\NCB\HivePoC
+> meteor --settings settings.json
+
+
+npm ERR! Windows_NT 6.1.7601
+npm ERR! argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
+npm ERR! node v7.7.2
+npm ERR! npm  v4.1.2
+npm ERR! code ELIFECYCLE
+npm ERR! HivePoC@ start: `meteor --settings settings.json`
+npm ERR! Exit status 3221226356
+npm ERR!
+npm ERR! Failed at the HivePoC@ start script 'meteor --settings settings.json'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the HivePoC package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     meteor --settings settings.json
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs HivePoC
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls HivePoC
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     C:\Users\Velizar Valkov\Downloads\ICO\NCB\HivePoC\npm-debug.log
+
+[[[[[ C:\Users\Velizar Valkov\Downloads\ICO\NCB\HivePoC ]]]]]
+
+=> Started proxy.
+=> A patch (Meteor 1.5.4.2) for your current release is available!
+   Update this project now with 'meteor update --patch'.
+=> Started MongoDB.
+C:\Users\Velizar Valkov\AppData\Local\.meteor\packages\meteor-tool\1.5.2_2\mt-os.windows.x86_32\dev_bundle\lib\node_modules\meteor-promise\promise_server.js:218
+      throw error;
+      ^
+
+Error: ENOTEMPTY: directory not empty, rmdir 'C:\Users\VELIZA~1\AppData\Local\Temp\.tmpaq9qe1\blaze-html-templates-1.1.2'
+    at Error (native)
+    at Object.fs.rmdirSync (fs.js:758:18)
+    at rmkidsSync (C:\Users\Velizar Valkov\AppData\Local\.meteor\packages\meteor-tool\1.5.2_2\mt-os.windows.x86_32\dev_bundle\lib\node_modules\rimraf\rimraf.js:355:25)
+    at rmdirSync (C:\Users\Velizar Valkov\AppData\Local\.meteor\packages\meteor-tool\1.5.2_2\mt-os.windows.x86_32\dev_bundle\lib\node_modules\rimraf\rimraf.js:333:7)
+    at Function.rimrafSync [as sync] (C:\Users\Velizar Valkov\AppData\Local\.meteor\packages\meteor-tool\1.5.2_2\mt-os.windows.x86_32\dev_bundle\lib\node_modules\rimraf\rimraf.js:303:9)
+    at Object.rm_recursive (C:\tools\fs\files.js:304:12)
+    at Object.files.rename (C:\tools\fs\files.js:1777:13)
+    at Object.files.extractTarGz (C:\tools\fs\files.js:768:9)
+    at Object.exports._extractAndConvert (C:\tools\packaging\tropohouse.js:50:9)
+    at C:\tools\packaging\tropohouse.js:505:42
+    at C:\tools\utils\buildmessage.js:359:18
+    at [object Object]._.extend.withValue (C:\tools\utils\fiber-helpers.js:89:14)
+    at C:\tools\utils\buildmessage.js:352:34
+    at [object Object]._.extend.withValue (C:\tools\utils\fiber-helpers.js:89:14)
+    at C:\tools\utils\buildmessage.js:350:23
+    at [object Object]._.extend.withValue (C:\tools\utils\fiber-helpers.js:89:14)
+    at Object.enterJob (C:\tools\utils\buildmessage.js:324:26)
+    at C:\tools\packaging\tropohouse.js:502:24
+    at Array.forEach (native)
+    at Function._.each._.forEach (C:\Users\Velizar Valkov\AppData\Local\.meteor\packages\meteor-tool\1.5.2_2\mt-os.windows.x86_32\dev_bundle\lib\node_modules\underscore\underscore.js:79:11)
+    at C:\tools\packaging\tropohouse.js:469:11
+    at C:\tools\utils\buildmessage.js:359:18
+    at [object Object]._.extend.withValue (C:\tools\utils\fiber-helpers.js:89:14)
+    at C:\tools\utils\buildmessage.js:352:34
+    at [object Object]._.extend.withValue (C:\tools\utils\fiber-helpers.js:89:14)
+    at C:\tools\utils\buildmessage.js:350:23
+    at [object Object]._.extend.withValue (C:\tools\utils\fiber-helpers.js:89:14)
+    at Object.enterJob (C:\tools\utils\buildmessage.js:324:26)
+    at Object.download (C:\tools\packaging\tropohouse.js:427:20)
+    at C:\tools\packaging\tropohouse.js:613:18
+    at C:\tools\utils\buildmessage.js:572:21
+    at C:\Users\Velizar Valkov\AppData\Local\.meteor\packages\meteor-tool\1.5.2_2\mt-os.windows.x86_32\dev_bundle\lib\node_modules\meteor-promise\fiber_pool.js:43:39
+ => awaited here:
+    at Promise.await (C:\Users\Velizar Valkov\AppData\Local\.meteor\packages\meteor-tool\1.5.2_2\mt-os.windows.x86_32\dev_bundle\lib\node_modules\meteor-promise\promise_server.js:60:12)
+    at Object.forkJoin (C:\tools\utils\buildmessage.js:604:6)
+    at [object Object]._.extend.downloadPackagesMissingFromMap (C:\tools\packaging\tropohouse.js:609:18)
+    at C:\tools\project-context.js:816:25
+    at C:\tools\utils\buildmessage.js:359:18
+    at [object Object]._.extend.withValue (C:\tools\utils\fiber-helpers.js:89:14)
+    at C:\tools\utils\buildmessage.js:352:34
+    at [object Object]._.extend.withValue (C:\tools\utils\fiber-helpers.js:89:14)
+    at C:\tools\utils\buildmessage.js:350:23
+    at [object Object]._.extend.withValue (C:\tools\utils\fiber-helpers.js:89:14)
+    at Object.enterJob (C:\tools\utils\buildmessage.js:324:26)
+    at C:\tools\project-context.js:815:20
+    at C:\tools\packaging\catalog\catalog.js:100:5
+    at C:\tools\utils\buildmessage.js:271:13
+    at [object Object]._.extend.withValue (C:\tools\utils\fiber-helpers.js:89:14)
+    at C:\tools\utils\buildmessage.js:264:29
+    at [object Object]._.extend.withValue (C:\tools\utils\fiber-helpers.js:89:14)
+    at C:\tools\utils\buildmessage.js:262:18
+    at [object Object]._.extend.withValue (C:\tools\utils\fiber-helpers.js:89:14)
+    at C:\tools\utils\buildmessage.js:253:23
+    at [object Object]._.extend.withValue (C:\tools\utils\fiber-helpers.js:89:14)
+    at Object.capture (C:\tools\utils\buildmessage.js:252:19)
+    at Object.catalog.runAndRetryWithRefreshIfHelpful (C:\tools\packaging\catalog\catalog.js:99:31)
+    at ProjectContext._downloadMissingPackages (C:\tools\project-context.js:814:13)
+    at C:\tools\project-context.js:285:9
+    at C:\tools\utils\buildmessage.js:359:18
+    at [object Object]._.extend.withValue (C:\tools\utils\fiber-helpers.js:89:14)
+    at C:\tools\utils\buildmessage.js:352:34
+    at [object Object]._.extend.withValue (C:\tools\utils\fiber-helpers.js:89:14)
+    at C:\tools\utils\buildmessage.js:350:23
+    at [object Object]._.extend.withValue (C:\tools\utils\fiber-helpers.js:89:14)
+    at Object.enterJob (C:\tools\utils\buildmessage.js:324:26)
+    at ProjectContext._.extend._completeStagesThrough (C:\tools\project-context.js:275:18)
+    at C:\tools\project-context.js:267:12
+    at Function.run (C:\tools\tool-env\profile.js:490:12)
+    at ProjectContext._.extend.prepareProjectForBuild (C:\tools\project-context.js:266:13)
+    at C:\tools\runners\run-app.js:558:29
+    at C:\tools\utils\buildmessage.js:271:13
+    at [object Object]._.extend.withValue (C:\tools\utils\fiber-helpers.js:89:14)
+    at C:\tools\utils\buildmessage.js:264:29
+    at [object Object]._.extend.withValue (C:\tools\utils\fiber-helpers.js:89:14)
+    at C:\tools\utils\buildmessage.js:262:18
+    at [object Object]._.extend.withValue (C:\tools\utils\fiber-helpers.js:89:14)
+    at C:\tools\utils\buildmessage.js:253:23
+    at [object Object]._.extend.withValue (C:\tools\utils\fiber-helpers.js:89:14)
+    at Object.capture (C:\tools\utils\buildmessage.js:252:19)
+    at bundleApp (C:\tools\runners\run-app.js:557:31)
+    at [object Object]._.extend._runOnce (C:\tools\runners\run-app.js:626:35)
+    at [object Object]._.extend._fiber (C:\tools\runners\run-app.js:885:28)
+    at C:\tools\runners\run-app.js:412:12
